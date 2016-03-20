@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>居中布局</title>
+	<style>
+	/*兼容性非常好*/
+	.parent {
+		text-align: center;
+	}
+	.child {
+		display: inline-block;
+		/*IE：解决方法：display:inline;zoom:1;*/
+	}
+	</style>
+</head>
+<body>
+	<div class='parent'>
+		<div class='child'>DEMO</div>
+	</div>
+</body>
+</html>

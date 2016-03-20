@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>四宫格实现</title>
+    <style>
+        .parent{display:flex;flex-direction:column;width:400px;height:400px;background:#ccc;}
+        .child{display:flex;flex:1;}
+        .child+.child{margin-top:10px;}
+        .item{flex:1;background:#666;}
+        .item+.item{margin-left:10px;}
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="child">
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <div class="child">
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</div>
+</body>
+</html>

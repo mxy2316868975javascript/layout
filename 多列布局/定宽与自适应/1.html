@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.left {
+		width: 100px;
+		float: left;
+		background: red;
+		/*margin-left: -100px;IE6hack方法*/
+	}
+	.right {
+		/*overflow: hidden;*/
+		margin-left: 120px;
+		background: yellow;
+	}
+	</style>
+</head>
+<body>
+	<div class='parent'>
+		<div class='left'>
+			<p>left</p>
+		</div>
+		<div class='right'>
+			<p>right</p>
+			<p>right</p>
+		</div>
+	</div>
+</body>
+</html>

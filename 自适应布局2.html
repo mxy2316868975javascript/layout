@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.parent {
+		/*display: table;*/
+		display: flex;
+		width: 100%;
+		height: 30px;
+		background: silver;
+	} 
+	.left {
+		background: red;
+		width: 100px;
+	}
+	.center {
+		flex:1;
+	}
+	.right {
+		/*display: table-cell;*/
+		background: lightseagreen;
+		width: 100px;
+	}
+	</style>
+</head>
+<body>
+	<div class='parent'>
+		<div class='left'>左侧定宽</div>
+		<div class='center'>中间自适应</div>
+		<div class='right'>右侧定宽</div>
+	</div>
+</body>
+</html>
